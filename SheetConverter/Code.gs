@@ -257,7 +257,7 @@ function convertRange2html(range){
                 + 'vertical-align:XXX;'.replace('XXX',verticalAlignments[row][col]).replace('vertical-align:bottom;','')
                 + 'text-decoration:XXX;'.replace('XXX',fontLines[row][col]).replace('text-decoration:none;','')
                 + 'font-style:XXX;'.replace('XXX',fontStyles[row][col]).replace('font-style:normal;','')
-                + 'border:1px solid black;'  // Need this, to override caja-guest td border-bottom
+                //+ 'border:1px solid black;'  // Need this, to override caja-guest td border-bottom
                 + 'overflow:hidden;'
                 +'"';
       html.push('<td XXX>'.replace('XXX',style)
